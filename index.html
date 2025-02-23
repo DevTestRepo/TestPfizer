@@ -89,7 +89,7 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
         window.zappar=ZCV.initialize();
         const loader = document.querySelector("#loader");
-        var gameInstance; //= UnityLoader.instantiate("gameContainer", "Build/New folder (3).json", { onProgress: UnityProgress }); 
+        var gameInstance= UnityLoader.instantiate("gameContainer", "Build/New folder (3).json", { onProgress: UnityProgress }); 
 
        // window.zappar.permission_request_ui_promise().then(WaitForZCVLoad);
 
