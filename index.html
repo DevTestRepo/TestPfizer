@@ -439,7 +439,7 @@
     <script src="./assets/js/tailwind.js"></script>
     <script src="./assets/js/modernizr-2.6.2.min.js"></script>
     <script src="./assets/js/metro.min.js"></script>
-	 <!--   <script  src="./pwa.js"></script>
+	   <script  src="./pwa.js"></script>
 
     <script>
       tailwind.config = {
@@ -451,9 +451,9 @@
           },
         },
       };
-    </script>-->
-    <!-- <script>
-      jQuery('head').append('<link rel="manifest" href="' + window.location.origin + '/manifest.json" crossorigin="use-credentials">');
+    </script>
+    <script>
+      jQuery('head').append('<link rel="manifest" href="' + window.location.origin + './manifest.json" crossorigin="use-credentials">');
       if ('serviceWorker' in navigator) {
           navigator.serviceWorker
               .register('./service-worker.js')
@@ -461,7 +461,7 @@
                   console.log("Service Worker Registered");
               });
       }
-      </script>-->
+      </script>
       <script>
           jQuery(document).ready(function () {
               let urlRedirect = getCookie("url");
